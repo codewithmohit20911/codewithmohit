@@ -1,0 +1,145 @@
+
+    .vs1{
+    padding-left: 20px;
+    position: relative;
+    color: rgb(73, 71, 71);
+text-decoration: none;
+}
+.vs1.a:hover{
+    cursor: pointer;	
+    
+}
+
+.vs14{
+    padding-left: 20px;
+    position: relative;
+    color: rgb(73, 71, 71);
+text-decoration: none;
+}
+.vs14.a:hover{
+    cursor: pointer;	
+    
+}
+
+.ov14{
+    position: absolute;
+    top: 0%;
+    width: 89%;
+    background-color: black;
+    height: 73.5%;
+    opacity: 0;
+    color: white;
+    }
+    .ov14:hover{
+              opacity: 0.7;
+             
+    }
+
+body{
+	background-image: url( "img/code.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	box-sizing: content-box;
+	overflow: scroll;
+}
+.vs2{
+    padding-left: 20px;
+    position: relative;
+    color: rgb(73, 71, 71);
+text-decoration: none;
+}
+.vs2.a:hover{
+    cursor: pointer;	
+    
+}
+.vs3{
+    padding-left: 20px;
+    position: relative;
+    color: rgb(73, 71, 71);
+text-decoration: none;
+}
+.vs3.a:hover{
+    cursor: pointer;	
+    
+}
+.vs4{
+    padding-left: 20px;
+    position: relative;
+    color: rgb(73, 71, 71);
+text-decoration: none;
+}
+.vs4.a:hover{
+    cursor: pointer;	
+    
+}
+
+.ov1{
+position: relative;
+position: absolute;
+top: 0%;
+width: 95%;
+background-color: black;
+height: 74%;
+opacity: 0;
+color: white;
+}
+.ov1:hover{
+          opacity: 0.7;
+         
+}
+.ov2{
+    position: relative;
+    position: absolute;
+    top: 0%;
+    width: 95%;
+    background-color: black;
+    height: 74%;
+    opacity: 0;
+    color: white;
+    }
+    .ov2:hover{
+              opacity: 0.7;
+             
+    }
+    .ov3{
+        position: relative;
+        position: absolute;
+        top: 0%;
+        width: 95%;
+        background-color: black;
+        height: 74%;
+        opacity: 0;
+        color: white;
+        }
+        .ov3:hover{
+                  opacity: 0.7;
+                 
+        }
+        .ov4{
+            position: relative;
+            position: absolute;
+            top: 0%;
+            width: 95%;
+            background-color: black;
+            height: 74%;
+            opacity: 0;
+            color: white;
+            }
+            .ov4:hover{
+                      opacity: 0.7;
+                     
+            }
+.video{
+display: flex;
+justify-content: space-around;
+}
+ .white{
+    background-color: white;
+ }
+.responsive-youtube
+
+{overflow:hidden; padding-bottom:56.25%; position:relative; height:0;}
+.responsive-youtube iframe
+{ height:83%; width:100%; position:absolute;}
