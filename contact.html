@@ -1,126 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Contact</title>
-    <link rel="icon" href="img/code2.png">
-    <meta name="author" content="Mohit pnp">
-    <script src="./form.js"></script>
-    <link rel="stylesheet" href="form.css">
-    <link rel="stylesheet" href="style.css">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8623190965366361"
-     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Brands.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
+    <link rel="stylesheet" href="assets/css/Social-Icons.css">
+	<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 </head>
-<body>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            -<br>
-            -<br>
-            -
-        </label>
-        <label class="logo"><img src="img/code2.png" width="50px">code with mohit</label>
-        <ul>
-          <li class="nav-item">
-            <a href="home" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="courses" class="nav-link">Courses</a>
-            </li>
-            <li class="nav-item">
-              <a href="404" class="nav-link">About-US</a>
-            </li>
-            <li class="nav-item">
-              <a href="contact" class="nav-link">Contact</a>
-            </li>
-                <li class="nav-item">
-              <a href="yt-videos" class="nav-link">YT-Videos</a>
-            </li>
-        </ul>
-    </nav>
-<section>
-    <div class="cont">
-      <form action="https://formspree.io/f/mpzkkywa" method="POST" id="my-form">
-  
-        <div class="form-group">
-          <label for="firstName"> First Name</label>
-          <input type="text" id="firstName" name="firstName">
-        </div>
-  
-        <div class="form-group">
-          <label for="latsName">Last Name</label>
-          <input type="text" id="lastName" name="lastName">
-        </div>
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email">
-        </div>
-  <script src="form.js"></script>
-        <div class="form-group">
-          <label for="massage">Massage</label>
-          <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
-        </div>
-        <button type="submit">Submit</button>
-      </form>
+<link rel="shortcut icon" href="img/code2.png" type="image/x-icon">
+<body id="page-top">
+    <div id="wrapper">
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content"></div>
+        </div><a class="border rounded d-inline scroll-to-top" href=""><i class="fas fa-angle-up"></i></a>
     </div>
-    <div id="status"></div>
-</section>
-	<!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
-<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-<script>
-  (function() {
-    var id = '797ad5d6-1f11-11ec-bccf-0242ac130002';
-    var ci_search = document.createElement('script');
-    ci_search.type = 'text/javascript';
-    ci_search.async = true;
-    ci_search.src = 'https://cse.expertrec.com/api/js/ci_common.js?id=' + id;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(ci_search, s);
-  })();
-  </script>
-<script>
-  /* paste this line in verbatim */
-  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-  /* customize formbutton below*/     
-  formbutton("create", {
-    action: "https://formspree.io/f/mvoddwgg",
-    title: "How can we help?",
-    fields: [
-	{
-        type: "text",
-        label: "name",
-        name: "name",
-        placeholder: "your name",
-      },
-      { 
-        type: "email", 
-        label: "Email:", 
-        name: "email",
-        required: true,
-        placeholder: "your@email.com"
-      },
-      
-      {
-        type: "textarea",
-        label: "Message:",
-        name: "message",
-        placeholder: "What's on your mind?",
-      },
-      { type: "submit" }      
-    ],
-    
-    styles: {
-      title: {
-        backgroundColor: "blue"
-      },
-      button: {
-        backgroundColor: "blue"
-      }
-    }
-  });
-</script>
+    <footer class="bg-white sticky-footer">
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean-search">
+            <div class="container"><a class="navbar-brand" href="">Code with mohit</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="">contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="home">home</a></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"><a class="nav-link" href="courses/htmlfreecourseintamil/introduction.html">courses</a></li>
+                        <li class="nav-item"><a class="nav-link" href="yt-videos">videos</a></li>
+                    </ul>
+                    <form class="me-auto search-form" target="_self">
+                        <div class="d-flex align-items-center"><label class="form-label d-flex mb-0" for="search-field"></label><ci-search  class="form-control search-field" id="search-field"  name="search"></ci-search></div>
+                    </form><a class="btn btn-light action-button" role="button" href="https://www.youtube.com/channel/UC5bF6qM9kqTiKqshRqRovJQ?sub_confirmation=1&feature=subscribe-embed-click" target="blank">code with mohit</a>
+                </div>
+            </div>
+        </nav>
+        <section class="contact-clean">
+            <div class="brands"></div>
+            <form  action="https://formspree.io/f/mpzkkywa" method="POST" id="my-form">
+                <h2 class="text-center">Contact us</h2>
+                <div class="mb-3"><input class="form-control"  type="text" id="Name" name="Name" placeholder="Name"></div>
+                <div class="mb-3"><input type="email" class="form-control" name="email" placeholder="Email" /></div>
+                <div class="mb-3"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+                <div class="mb-3"><button class="btn btn-primary" type="submit">send </button></div>
+            </form>
+        </section>
+        <div class="social-icons"><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"></a><a href="#"></a><a href="#"><i class="icon ion-social-youtube"></i></a></div><footer class="bg-white sticky-footer">
+    <div class="container my-auto">
+        <div class="text-center my-auto copyright"><span>Copyright © Code with mohit 2021</span></div>
+    </div>
+</footer>
+    </footer>
+    <footer></footer>
+    <footer></footer>
+    <script>
+      (function() {
+        var id = '797ad5d6-1f11-11ec-bccf-0242ac130002';
+        var ci_search = document.createElement('script');
+        ci_search.type = 'text/javascript';
+        ci_search.async = true;
+        ci_search.src = 'https://cse.expertrec.com/api/js/ci_common.js?id=' + id;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ci_search, s);
+      })();
+      </script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
 </html>
