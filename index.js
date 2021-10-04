@@ -1,42 +1,28 @@
-  /* paste this line in verbatim */
-  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-  /* customize formbutton below*/     
-  formbutton("create", {
-    action: "https://formspree.io/f/mvoddwgg",
-    title: "How can we help?",
-    fields: [
-	{
-        type: "text",
-        label: "name",
-        name: "name",
-        placeholder: "your name",
-      },
-      { 
-        type: "email", 
-        label: "Email:", 
-        name: "email",
-        required: true,
-        placeholder: "your@email.com"
-      },
-      
-      {
-        type: "textarea",
-        label: "Message:",
-        name: "message",
-        placeholder: "What's on your mind?",
-      },
-      { type: "submit" }      
-    ],
-    
-    styles: {
-      title: {
-        backgroundColor: "blue"
-      },
-      button: {
-        backgroundColor: "blue"
-      }
-    }
-  });
+
+		"use strict";
+		
+		!function() {
+		  var t = window.driftt = window.drift = window.driftt || [];
+		  if (!t.init) {
+			if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+			t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+			t.factory = function(e) {
+			  return function() {
+				var n = Array.prototype.slice.call(arguments);
+				return n.unshift(e), t.push(n), t;
+			  };
+			}, t.methods.forEach(function(e) {
+			  t[e] = t.factory(e);
+			}), t.load = function(t) {
+			  var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+			  o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+			  var i = document.getElementsByTagName("script")[0];
+			  i.parentNode.insertBefore(o, i);
+			};
+		  }
+		}();
+		drift.SNIPPET_VERSION = '0.3.1';
+		drift.load('ptuwu3fpgv9x');
   function myFunction() {
     // Declare variables
     var input, filter, ul, li, a, i, txtValue;
