@@ -3,6 +3,40 @@
 <head>
     <link rel="icon" href="img/code2.png">
 	<title>Home</title>
+		<!-- Messenger Chat Plugin Code -->
+		<div id="fb-root"></div>
+
+		<!-- Your Chat Plugin code -->
+		<div id="fb-customer-chat" class="fb-customerchat">
+		</div>
+	  
+		<script>
+		  var chatbox = document.getElementById('fb-customer-chat');
+		  chatbox.setAttribute("page_id", "103168695475937");
+		  chatbox.setAttribute("attribution", "biz_inbox");
+	  
+		  window.fbAsyncInit = function() {
+			FB.init({
+			  xfbml            : true,
+			  version          : 'v12.0'
+			});
+		  };
+	  
+		  (function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		  }(document, 'script', 'facebook-jssdk'));
+		</script>
+		<!-- Google Tag Manager -->
+	  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-N78LZ57');</script>
+		<!-- End Google Tag Manager -->
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8623190965366361"
      crossorigin="anonymous"></script>
 	<header>
@@ -71,7 +105,10 @@
 <br>&nbsp;&nbsp; <h3><a href="courses" target="blank">click here to see more -->&nbsp;&nbsp;</a></h3><br>
 </div>
 </div>
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N78LZ57"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 
 <script>
   (function() {
