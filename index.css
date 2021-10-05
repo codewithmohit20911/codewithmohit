@@ -1,11 +1,11 @@
-body{
+.home{
 	background-image: url( "img/code.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	box-sizing: content-box;
-    overflow: scroll;
+
 }
 #myInput {
   background-image: url('/css/searchicon.png'); /* Add a search icon to input */
@@ -22,6 +22,14 @@ body{
     padding-left: 10px;
     padding-right: 0px;
 }
+.contact-clean{
+	background: #f1f7fc;
+	padding: 80px 0;
+	
+}
+form{
+	border-radius: 10000px;
+}
 .bg-primary{
     padding-right: 100px;
     padding-bottom: 0%;
@@ -35,9 +43,12 @@ body{
   width: 99%;
 }
 .searchbarflex{
-	display: flex;
     padding-left: 10px;
     padding-right: 0%;
+}
+.bd{
+	border: 16px solid;
+	color: blue;
 }
 #myUL li a {
   border: 1px solid #ddd; /* Add a border to all links */
@@ -58,15 +69,6 @@ padding-left: 12%;
   background-color: #eee; /* Add a hover effect to all links, except for headers */
 }
      
-     .nav{
-	height: 1000px;
-	
-}
-
-.title{
-	position: relative;
-	display:flex;
-}
 
 head{
 
@@ -78,6 +80,7 @@ font-family: 'Coda Caption', sans-serif;
 .white{
             background-color: white;
 			overflow: auto;
+			
 			
             border-radius: 20px;
     }
