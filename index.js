@@ -1,44 +1,18 @@
-
-		"use strict";
-		
-		!function() {
-		  var t = window.driftt = window.drift = window.driftt || [];
-		  if (!t.init) {
-			if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-			t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-			t.factory = function(e) {
-			  return function() {
-				var n = Array.prototype.slice.call(arguments);
-				return n.unshift(e), t.push(n), t;
-			  };
-			}, t.methods.forEach(function(e) {
-			  t[e] = t.factory(e);
-			}), t.load = function(t) {
-			  var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-			  o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-			  var i = document.getElementsByTagName("script")[0];
-			  i.parentNode.insertBefore(o, i);
-			};
-		  }
-		}();
-		drift.SNIPPET_VERSION = '0.3.1';
-		drift.load('ptuwu3fpgv9x');
-  function myFunction() {
-    // Declare variables
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById('myInput');
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName('li');
-  
-    // Loop through all list items, and hide those who don't match the search query
-    for (i = 0; i < li.length; i++) {
-      a = li[i].getElementsByTagName("a")[0];
-      txtValue = a.textContent || a.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        li[i].style.display = "";
-      } else {
-        li[i].style.display = "none";
-      }
-    }
-  }
+    (function(d, m){
+        var kommunicateSettings = 
+            {"appId":"3e81e4f4d2807fa8a59f05694f4fdda39","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+(function() {
+	var id = '797ad5d6-1f11-11ec-bccf-0242ac130002';
+	var ci_search = document.createElement('script');
+	ci_search.type = 'text/javascript';
+	ci_search.async = true;
+	ci_search.src = 'https://cse.expertrec.com/api/js/ci_common.js?id=' + id;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ci_search, s);
+  })();
