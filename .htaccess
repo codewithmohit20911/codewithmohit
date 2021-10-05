@@ -1,0 +1,7 @@
+<IFModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^ytcodewithmohit.tech [NC]
+
+RewriteRule ^(.*)$ https://www.ytcodewithmohit.tech/$1 [L,R=301]
+</IFModule>
